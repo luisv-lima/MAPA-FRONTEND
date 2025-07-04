@@ -1,4 +1,4 @@
-
+/* ================== Base variables & reset ================== */
 :root {
   --gradient-start: #141e30;
   --gradient-end: #243b55;
@@ -64,7 +64,7 @@ nav a:hover {
   border: none;
   color: #ffffff;
 }
-
+/* ================== Hero Section ================== */
 .hero {
   display: flex;
   flex-direction: column;
@@ -82,7 +82,7 @@ nav a:hover {
   margin-bottom: 1.5rem;
 }
 
-
+/* ================== Social icons ================== */
 .social a {
   margin: 0 0.5rem;
 }
