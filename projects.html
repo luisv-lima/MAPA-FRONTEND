@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos | Luís Lima</title>
+  <meta name="description" content="Alguns projetos desenvolvidos por Luís Lima.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Luís Lima</h1>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="projects.html" class="active">Projetos</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+        <button id="navToggle" aria-label="Toggle Menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Projetos</h2>
+      <div class="filters">
+        <button class="filter-btn active" data-category="all">Todos</button>
+        <button class="filter-btn" data-category="web">Web</button>
+        <button class="filter-btn" data-category="api">APIs</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="web">
+          <h3>Site Responsivo</h3>
+          <p>Exemplo de site responsivo com HTML, CSS e JS.</p>
+        </div>
+        <div class="project-card" data-category="api">
+          <h3>API em Go</h3>
+          <p>API RESTful criada em GoLang com autenticação JWT.</p>
+        </div>
+        <div class="project-card" data-category="web">
+          <h3>Loja Virtual</h3>
+          <p>E-commerce simplificado com integração de pagamentos.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Luís Lima. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
